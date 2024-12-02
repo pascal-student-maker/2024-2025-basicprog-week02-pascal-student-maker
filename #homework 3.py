@@ -13,6 +13,6 @@ def def_show_message(time_range):
     else:
         print("Invalid time range")
 
-hour = int(input("what time is it ?"))
+hxour = int(input("what time is it ?"))
 firstname = input(" What is your first name ?")
 welcome = def_show_message(hour ,firstname)

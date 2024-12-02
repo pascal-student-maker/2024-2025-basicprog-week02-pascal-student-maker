@@ -1,4 +1,6 @@
- #homework 2
+#homework 2 alternative solution 
+
+ 
 def exclusive_include( a,b):
     result = a * b
     print(f" the result is the amount including vat,: {result}")
