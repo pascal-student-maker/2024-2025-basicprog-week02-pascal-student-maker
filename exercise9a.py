@@ -1,7 +1,10 @@
-def create_welcome_in_class(name:str,classgroup= "1CTAI1")->  str:
-    print(f"Welcome {name} in {classgroup}.")
+def create_welcome(name,classgroup="1CTAI1"):
     
-name = input("What is your name?")    
+    if classgroup not in ("1CTAI1","1MCT1"):
+        classgroup = "1CTAI1"
+    return f" Welcome {name} in {classgroup}"    
+
+name = input("What is your name")
 classgroup = input("What is your classgroup?")
 
 create_welcome_in_class(name,classgroup)
